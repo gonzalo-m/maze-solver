@@ -1,6 +1,6 @@
 ## Maze Solver
 
-#### Ruby app for processing text files containing maze data.
+Ruby app for processing text files containing maze data.
 
 ###### s - start
 ###### e - end

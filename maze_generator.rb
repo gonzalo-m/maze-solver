@@ -47,7 +47,7 @@ def numeric?(lookAhead)
 end
 
 if ARGV.length < 1
-  fail "usage: mazeGen.rb <size>" 
+  fail "usage: maze_generator.rb <size>" 
 end
 
 command = ARGV[0]

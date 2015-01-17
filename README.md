@@ -2,6 +2,9 @@
 
 Ruby app for processing text files containing maze data.
 
+s - start
+e - end
+
         +-+-+-+-+-+-+-+-+-+-+
 		|     | | | |       |
 		+-+ + +-+ + + +-+ + +

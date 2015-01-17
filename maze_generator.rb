@@ -30,21 +30,26 @@ def gen_open
 	return dirs
 end
 
+
 def gen_float
 	ran = rand * rand(10)
 end
+
 
 def gen_int
 	ran = rand(SIZE)
 end
 
+
 def letter?(lookAhead)
   lookAhead =~ /[[:alpha:]]/
 end
 
+
 def numeric?(lookAhead)
   lookAhead =~ /[[:digit:]]/
 end
+
 
 if ARGV.length < 1
   fail "usage: maze_generator.rb <size>" 
@@ -54,7 +59,8 @@ command = ARGV[0]
 SIZE = command.to_i
 
 cells = Array.new(SIZE) { Array.new(SIZE, Array.new) }
-puts SIZE.to_s + " " + gen_int.to_s + " " + gen_int.to_s + " " + gen_int.to_s + " " + gen_int.to_s
+puts SIZE.to_s + " " + gen_int.to_s + " " + gen_int.to_s + " " \
+	+ gen_int.to_s + " " + gen_int.to_s
 
 
 for x in 0...SIZE
@@ -142,5 +148,4 @@ for x in 0...SIZE
 		}
 		print "\n"
 	end
-	# print "\n"
 end
